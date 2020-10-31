@@ -30,7 +30,8 @@ p {
 }
 
 .title__top {
-    top: 25%;
+    top: 23%;
+    width: 40%;
 }
 
 .title__bottom {
@@ -56,6 +57,14 @@ p {
     top: 60%;
     -webkit-transform: translate(-105%, 25%);
     transform: translate(-105%, 25%);
+    height: auto;
+}
+
+.text__right--bottom {
+    left: 85%;
+    top: 60%;
+    -webkit-transform: translate(-105%, -5%);
+    transform: translate(-105%, -5%);
     height: auto;
 }
 
