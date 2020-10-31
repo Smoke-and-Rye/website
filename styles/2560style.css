@@ -105,8 +105,8 @@ p {
 }
 
 .square__large--left--bottom {
-    -webkit-transform: translateY(120%);
-    transform: translate(0, 120%);
+    -webkit-transform: translate(150%, 375%);
+    transform: translate(150%, 375%);
 }
 
 .square__large--right--top {
@@ -119,8 +119,8 @@ p {
 }
 
 .square__small--right--top {
-    -webkit-transform: translate(150%, 120%);
-    transform: translate(150%, 120%);
+    -webkit-transform: translate(1305%, 210%);
+    transform: translate(1305%, 210%);
 }
 
 .square__small--right--bottom {
