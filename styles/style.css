@@ -70,7 +70,7 @@ img {
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
 }
 
 .img__landing {
@@ -121,6 +121,31 @@ p {
     top: 70%;
 }
 
+.text {
+    position: absolute;
+    width: 40%;
+}
+
+.text__left--bottom {
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-105%, 25%);
+    transform: translate(-105%, 25%);
+    height: auto;
+}
+
+.text__right--bottom {
+    left: 75%;
+    top: 58%;
+    -webkit-transform: translate(-70%, 25%);
+    transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.text__top {
+    top: 25%
+}
+
 .square__large {
     width: 10%;
 }
@@ -145,8 +170,8 @@ p {
 }
 
 .square__small--right--bottom {
-    -webkit-transform: translate(1305%, 485%);
-    transform: translate(1305%, 485%);
+    -webkit-transform: translate(1305%, 515%);
+    transform: translate(1305%, 515%);
 }
 
 /* Group styles */
