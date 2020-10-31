@@ -30,6 +30,12 @@
       transform: translateZ(90px) scale(.7);
       z-index: 1;
   }
+
+  .parallax__layer--closest {
+      -webkit-transform: translateZ(200px) scale(.45);
+      transform: translateZ(200px) scale(.45);
+      z-index: 5;
+  }
   .parallax__layer--base {
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
@@ -60,6 +66,11 @@ body {
 img {
     width: 100%;
     height: 100%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25rem;
 }
 
 .img__landing {
