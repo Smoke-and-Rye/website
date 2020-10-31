@@ -1,6 +1,6 @@
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.5rem;
+    font-size: 2.05rem;
 }
 
 .title {
@@ -39,7 +39,16 @@ p {
 
 .text {
     position: absolute;
-    width: 40%;
+    text-align: justify;
+    width: 43%;
+}
+
+.text__center {
+    left: 75%;
+    top: 60%;
+    -webkit-transform: translate(-112%, 103%);
+    transform: translate(-112%, 103%);
+    height: auto;
 }
 
 .text__left--bottom {
@@ -51,10 +60,10 @@ p {
 }
 
 .text__left--top {
-    left: 45%;
+    left: 47%;
     top: 60%;
-    -webkit-transform: translate(-105%, -55%);
-    transform: translate(-105%, -55%);
+    -webkit-transform: translate(-104%, -95%);
+    transform: translate(-104%, -95%);
     height: auto;
 }
 
@@ -75,10 +84,10 @@ p {
 }
 
 .processes__text__right--bottom {
-    left: 84%;
-    top: 72%;
-    -webkit-transform: translate(-62%, 223%);
-    transform: translate(-62%, 223%);
+    left: 81%;
+    top: 70%;
+    -webkit-transform: translate(-62%, 371%);
+    transform: translate(-62%, 371%);
     height: auto;
 }
 
