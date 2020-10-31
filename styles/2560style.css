@@ -1,0 +1,96 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.title__right {
+    right: -5%;
+    top: 50%;
+    -webkit-transform: translate(-5%, -50%);
+    transform: translate(-5%, -50%);
+    width: 50%;
+    height: auto;
+}
+
+.title__left {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-95%, -50%);
+    transform: translate(-95%, -50%);
+    width: 50%;
+    height: auto;
+}
+
+.title__top {
+    top: 25%;
+}
+
+.title__bottom {
+    top: 70%;
+}
+
+.text {
+    position: absolute;
+    width: 40%;
+}
+
+.text__left--bottom {
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-105%, 25%);
+    transform: translate(-105%, 25%);
+    height: auto;
+}
+
+.text__right--bottom {
+    left: 75%;
+    top: 58%;
+    -webkit-transform: translate(-70%, 25%);
+    transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.text__top {
+    top: 25%;
+}
+
+.square__large {
+    width: 10%;
+}
+
+.square__large--left--top {
+    -webkit-transform: translate(150%, 120%);
+    transform: translate(150%, 120%);
+}
+
+.square__large--left--bottom {
+    -webkit-transform: translateY(120%);
+    transform: translate(0, 120%);
+}
+
+.square__large--right--top {
+    -webkit-transform: translate(750%, 120%);
+    transform: translate(750%, 120%);
+}
+
+.square__small {
+    width: 6%;
+}
+
+.square__small--right--top {
+    -webkit-transform: translate(150%, 120%);
+    transform: translate(150%, 120%);
+}
+
+.square__small--right--bottom {
+    -webkit-transform: translate(1305%, 515%);
+    transform: translate(1305%, 515%);
+}
