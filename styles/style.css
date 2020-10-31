@@ -121,6 +121,34 @@ p {
     top: 70%;
 }
 
+.square__large {
+    width: 10%;
+}
+
+.square__large--left--top {
+    -webkit-transform: translate(150%, 120%);
+    transform: translate(150%, 120%);
+}
+
+.square__large--left--bottom {
+    -webkit-transform: translateY(120%);
+    transform: translate(0, 120%);
+}
+
+.square__small {
+    width: 6%;
+}
+
+.square__small--right--top {
+    -webkit-transform: translate(150%, 120%);
+    transform: translate(150%, 120%);
+}
+
+.square__small--right--bottom {
+    -webkit-transform: translate(1305%, 485%);
+    transform: translate(1305%, 485%);
+}
+
 /* Group styles */
 
 #group1 {
