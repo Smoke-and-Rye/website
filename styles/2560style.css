@@ -50,11 +50,35 @@ p {
     height: auto;
 }
 
-.text__right--bottom {
+.text__left--top {
+    left: 45%;
+    top: 60%;
+    -webkit-transform: translate(-105%, -55%);
+    transform: translate(-105%, -55%);
+    height: auto;
+}
+
+.text__right--top {
     left: 75%;
     top: 58%;
     -webkit-transform: translate(-70%, 25%);
     transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.services__text__right--bottom {
+    left: 75%;
+    top: 58%;
+    -webkit-transform: translate(-70%, 25%);
+    transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.processes__text__right--bottom {
+    left: 84%;
+    top: 72%;
+    -webkit-transform: translate(-62%, 223%);
+    transform: translate(-62%, 223%);
     height: auto;
 }
 
