@@ -1,6 +1,6 @@
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.05rem;
+    font-size: 1.25rem;
 }
 
 .title {
@@ -41,7 +41,7 @@ p {
 .text {
     position: absolute;
     text-align: justify;
-    width: 43%;
+    width: 42%;
 }
 
 .text__center {
@@ -53,10 +53,10 @@ p {
 }
 
 .text__left--bottom {
-    left: 50%;
+    left: 53%;
     top: 60%;
-    -webkit-transform: translate(-105%, 25%);
-    transform: translate(-105%, 25%);
+    -webkit-transform: translate(-105%, 12%);
+    transform: translate(-105%, 12%);
     height: auto;
 }
 
@@ -84,7 +84,15 @@ p {
     height: auto;
 }
 
-.services__text__right--bottom {
+.services__text__right {
+    left: 75%;
+    top: 58%;
+    -webkit-transform: translate(-70%, 25%);
+    transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.services__text__left {
     left: 75%;
     top: 58%;
     -webkit-transform: translate(-70%, 25%);
@@ -133,6 +141,6 @@ p {
 }
 
 .square__small--right--bottom {
-    -webkit-transform: translate(1305%, 515%);
-    transform: translate(1305%, 515%);
+    -webkit-transform: translate(1305%, 445%);
+    transform: translate(1305%, 445%);
 }
