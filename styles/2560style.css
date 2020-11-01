@@ -60,6 +60,7 @@ p {
     height: auto;
 }
 
+
 .text__right--bottom {
     left: 85%;
     top: 60%;
@@ -85,11 +86,12 @@ p {
 }
 
 .services__text__right {
-    left: 75%;
+    left: 74%;
     top: 58%;
-    -webkit-transform: translate(-70%, 25%);
-    transform: translate(-70%, 25%);
+    -webkit-transform: translate(-45%, 49%);
+    transform: translate(-45%, 49%);
     height: auto;
+    width: 31.3%;
 }
 
 .services__text__left {
