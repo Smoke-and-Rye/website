@@ -1,5 +1,5 @@
 
 // Size of browser viewport.
 window.addEventListener("load", (event) => {
-    console.log("Loaded!");
+    console.log("Width: " + window.innerWidth);
 });
