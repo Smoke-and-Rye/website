@@ -166,6 +166,11 @@ p {
     transform: translate(1305%, 445%);
 }
 
+.square__small--left--bottom {
+    -webkit-transform: translate(305%, 655%);
+    transform: translate(305%, 655%);
+}
+
 #about-us-aj-inner {
     left: 47.3%;
     top: 60%;
