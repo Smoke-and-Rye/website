@@ -142,6 +142,12 @@ input {
     width: 50% !important;
 }
 
+.contact__link {
+    float: right;
+    width: 8%;
+    margin-left: 4%;
+}
+
 /* Group styles */
 
 #group1 {
