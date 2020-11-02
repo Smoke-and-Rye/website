@@ -3,6 +3,42 @@ p {
     font-size: 1.25rem;
 }
 
+.contact__body {
+    text-align: center;
+    width: 50%;
+}
+
+.contact__input {
+    line-height: 200%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 45%;
+}
+
+.contact__input--name {
+
+}
+
+.contact__input--phone {
+    
+}
+
+.contact__input--email {
+    width: 96%;
+}
+
+.contact__input--details {
+
+}
+
+.contact__input--submit {
+
+}
+
+.contact__title {
+
+}
+
 .title {
     position: absolute;
     left: 50%;
