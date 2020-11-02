@@ -87,6 +87,46 @@ p {
     font-size: 200%;
 }
 
+/* Contact styles */
+.contact__body {
+    padding: 20px;
+    width: 40%;
+}
+
+.contact__input {
+    line-height: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.contact__input--name {
+    float: left;
+    width: 100%;
+}
+
+.contact__input--phone {
+    float: right;
+    width: 100%;
+}
+
+.contact__input--email {
+    width: 100%;
+}
+
+.contact__input--details {
+    width: 100%;
+}
+
+.contact__input--submit {
+    float: right;
+}
+
+.contact__title {
+
+}
+
 /* Group styles */
 
 #group1 {
