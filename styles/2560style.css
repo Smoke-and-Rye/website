@@ -3,6 +3,10 @@ p {
     font-size: 1.25rem;
 }
 
+.contact__input--submit {
+    font-size: 1.25rem;
+}
+
 .title {
     position: absolute;
     left: 50%;

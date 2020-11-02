@@ -73,6 +73,11 @@ p {
     font-size: 2.5rem;
 }
 
+input {
+    font-family: 'Courier New', Courier, monospace;
+    color: #DEDEDE;
+}
+
 .img__landing {
     width: 35% !important;
     height: auto;
@@ -121,6 +126,17 @@ p {
 
 .contact__input--submit {
     float: right;
+    border: none;
+    background-color: #77BDC2;
+    font-family:  'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #E9F0DD;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .contact__title {
