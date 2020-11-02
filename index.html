@@ -169,24 +169,25 @@
             <!-- Start "Contact Us" -->
             <div id="group6" class="parallax__group">
                 <div class="parallax__layer parallax__layer--base">
-                    <div class="title title__top">
-                        Say Hello To Start Your Adventure!
+                    <div class="title title__top contact__title">
+                        <img src="images/titles/sayhello2x.png">
                     </div>
-                        <form action="" class="title contact__body">
+                        <form action="" class="title contact__body" id="contact-us-form">
                             <div style="float:left; width: 47.5%;">
-                                <input class="contact__input contact__input--name" type="text" id="name" name="name"
+                                <input class="contact__input contact__input--name contact__input--border" type="text" id="name" name="name"
                                     placeholder="Name or Business name">
                             </div>
 
                             <div style="float:right; width: 47.5%;">
-                                <input class="contact__input contact__input--phone" type="tel" id="phone" name="phone"
+                                <input class="contact__input contact__input--phone contact__input--border" type="tel" id="phone" name="phone"
                                     placeholder="Phone"><br>
                             </div>
                             
                             <input class="contact__input contact__input--email" type="email" id="email" name="email"
                                 placeholder="Email"><br>
-                            <input class="contact__input contact__input--details" type="text" id="details" name="details"
-                                placeholder="Services you are looking for"><br>
+                            <textarea class="contact__input contact__input--details" id="details" name="details"
+                                rows="5" placeholder="Services you are looking for" form="contact-us-form" 
+                                maxlength="140"></textarea><br>
                             <input class="contact__input--submit" type="submit" value="Submit">
                         </form>
                 </div>

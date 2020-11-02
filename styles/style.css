@@ -100,34 +100,29 @@ input {
 
 .contact__input {
     line-height: 150%;
-    padding: 12px 20px;
+    padding: 10px 10px;
     margin: 8px 0;
     display: inline-block;
     box-sizing: border-box;
+    width: 100%;
+}
+
+.contact__input--border {
+    border: 3px solid lightgray;
 }
 
 .contact__input--name {
     float: left;
-    width: 100%;
 }
 
 .contact__input--phone {
-    float: right;
-    width: 100%;
-}
-
-.contact__input--email {
-    width: 100%;
-}
-
-.contact__input--details {
-    width: 100%;
+    float: right
 }
 
 .contact__input--submit {
     float: right;
     border: none;
-    background-color: #77BDC2;
+    background-color: #77BDC3;
     font-family:  'Courier New', Courier, monospace;
     font-weight: bold;
     color: #E9F0DD;
@@ -139,8 +134,12 @@ input {
     margin-bottom: 4%;
 }
 
-.contact__title {
+.contact__input--details {
+    resize: none;
+}
 
+.contact__title {
+    width: 50% !important;
 }
 
 /* Group styles */
