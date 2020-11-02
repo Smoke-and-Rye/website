@@ -178,10 +178,10 @@
                     <div class="title title__top contact__title">
                         <img src="images/titles/sayhello2x.png">
                     </div>
-                        <form action="" class="title contact__body" id="contact-us-form">
+                        <form action="http://formspree.io/jaredlee.dev@gmail.com" method="post" class="title contact__body" id="contact-us-form">
                             <div style="float:left; width: 47.5%;">
                                 <input class="contact__input contact__input--name contact__input--border" type="text" id="name" name="name"
-                                    placeholder="Name or Business name">
+                                    placeholder="Name or Business name" required>
                             </div>
 
                             <div style="float:right; width: 47.5%;">
@@ -190,7 +190,7 @@
                             </div>
                             
                             <input class="contact__input contact__input--email" type="email" id="email" name="email"
-                                placeholder="Email"><br>
+                                placeholder="Email" required><br>
                             <textarea class="contact__input contact__input--details" id="details" name="details"
                                 rows="5" placeholder="Services you are looking for" form="contact-us-form" 
                                 maxlength="140"></textarea><br>
