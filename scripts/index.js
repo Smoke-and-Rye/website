@@ -17,9 +17,9 @@ window.addEventListener("load", (event) => {
                 alert("Success function triggered");
                 RequestOK = true;
             },
+            provideUserFeedback();
         });
 
-        provideUserFeedback();
     });
 
     FormElementsInputs.forEach(element => {
