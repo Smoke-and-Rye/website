@@ -7,6 +7,10 @@ p {
     font-size: 1.25rem;
 }
 
+.services__text__right--paragraph {
+    font-size: .9rem;
+}
+
 .title {
     position: absolute;
     left: 50%;
