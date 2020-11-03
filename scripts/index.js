@@ -13,12 +13,10 @@ window.addEventListener("load", (event) => {
             url: "https://formspree.io/f/xqkgbdoj",
             dataType: "json",
             data: $(this).serialize(),
-            success: function() {
-                alert("Success function triggered");
-                RequestOK = true;
-            }
-        }).done(provideUserFeedback());
-
+            success: function() { RequestOK = true; },
+            error: function () { RequestOK = false; },
+            complete: function () { provideUserFeedback(); }
+        });
     });
 
     FormElementsInputs.forEach(element => {
