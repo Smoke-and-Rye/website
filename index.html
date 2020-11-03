@@ -7,7 +7,10 @@
             content="Quality graphic design solution, located in Spokane, Washington.">
 
         <link rel="stylesheet" href="styles/style.css">
-        
+        <!-- Large device resolution down to medium devices -->
+        <link rel="stylesheet" media="screen and (min-width: 2101px)"
+            href="styles/largestyle.css">
+
         <!-- Medium device resolution down to smaller devices -->
         <link rel="stylesheet" media="screen and (min-width: 1366px) and (max-width: 2100px) "
             href="styles/mediumstyle.css">
@@ -20,6 +23,8 @@
     
         <link rel="shortcut icon" href="images/bluesquare.svg"/>
         
+        <!-- Need JQuery For Ajax Post in Contact Us -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="scripts/index.js"></script>
     </head>
     
@@ -182,7 +187,7 @@
                     <div class="title title__top contact__title">
                         <img src="images/titles/sayhello2x.png">
                     </div>
-                        <form action="https://formspree.io/f/xqkgbdoj" method="POST" class="title contact__body" id="contact-us-form">
+                        <form class="title contact__body" id="contact-us-form">
                             <div style="float:left; width: 47.5%;">
                                 <input class="contact__input contact__input--name contact__input--border" type="text" id="name" name="name"
                                     placeholder="Name or Business name" required>
@@ -198,7 +203,7 @@
                             <textarea class="contact__input contact__input--details" id="details" name="details"
                                 rows="5" placeholder="Services you are looking for" form="contact-us-form" 
                                 maxlength="140"></textarea><br>
-                            <input class="contact__input--submit" type="submit" value="Submit"><br><br>
+                            <input id="contact-submit-button" class="contact__input--submit" type="submit" value="Submit"><br><br>
                             <div class="contact__link">
                                 <a href="https://www.instagram.com">
                                     <img src="images/insta-logo.png"
