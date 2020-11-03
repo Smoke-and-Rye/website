@@ -14,6 +14,7 @@ window.addEventListener("load", (event) => {
             dataType: "json",
             data: $(this).serialize(),
             success: function() {
+                alert("Success function triggered");
                 RequestOK = true;
             },
         });
