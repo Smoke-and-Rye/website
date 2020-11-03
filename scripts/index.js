@@ -1,5 +1,5 @@
 
-// Size of browser viewport.
+
 window.addEventListener("load", (event) => {
     $("form").on("submit", function (event) {
         event.preventDefault();
