@@ -16,9 +16,8 @@ window.addEventListener("load", (event) => {
             success: function() {
                 alert("Success function triggered");
                 RequestOK = true;
-            },
-            provideUserFeedback()
-        });
+            }
+        }).done(provideUserFeedback());
 
     });
 
