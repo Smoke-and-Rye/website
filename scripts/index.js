@@ -12,8 +12,12 @@ window.addEventListener("load", (event) => {
             success: function() {
                 alert("Success!");
             }
-        })
-    })
+        });
+
+        //TODO: Clear input content & change button text to "Submitted!"
+        //      When user focuses any input element, revert submit button.
+
+    });
 });
 
 
