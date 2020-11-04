@@ -113,8 +113,16 @@ p {
 .processes__text__right--bottom {
     left: 81%;
     top: 70%;
-    -webkit-transform: translate(-62%, 371%);
-    transform: translate(-62%, 371%);
+    -webkit-transform: translate(-62%, 320%);
+    transform: translate(-62%, 320%);
+    height: auto;
+}
+
+.processes__text__left--top {
+    left: 47%;
+    top: 60%;
+    -webkit-transform: translate(-104%, -60%);
+    transform: translate(-104%, -60%);
     height: auto;
 }
 
