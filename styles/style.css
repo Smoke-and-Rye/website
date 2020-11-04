@@ -1,61 +1,6 @@
-/* Parallax base styles */
-
-.parallax {
-    height: 500px; /* fallback for older browsers */
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 300px;
-    perspective: 300px;
-}
-
-.parallax__group {
-    position: relative;
-    height: 500px;
-    height: 100vh;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-
-  .parallax__layer--fore {
-      -webkit-transform: translateZ(90px) scale(.7);
-      transform: translateZ(90px) scale(.7);
-      z-index: 1;
-  }
-
-  .parallax__layer--closest {
-      -webkit-transform: translateZ(200px) scale(.45);
-      transform: translateZ(200px) scale(.45);
-      z-index: 5;
-  }
-  .parallax__layer--base {
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      z-index: 4;
-  }
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-300px) scale(2);
-    transform: translateZ(-300px) scale(2);
-    z-index: 3;
-  }
-
-  .parallax__layer--deep {
-      -webkit-transform: translateZ(-600px) scale(3);
-      transform: translateZ(-600px) scale(3);
-      z-index: 2;
-  }
-
 /* Page styles */
 
-  body, html {
+body, html {
     overflow: hidden;
 }
 
@@ -88,117 +33,28 @@ input {
     padding: 0;
 }
 
-.parallax {
-    font-size: 200%;
-}
-
-/* Contact styles */
-.contact__body {
-    padding: 20px;
-    width: 40%;
-}
-
-.contact__input {
-    line-height: 150%;
-    padding: 10px 10px;
-    margin: 8px 0;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.contact__input--border {
-    border: 3px solid lightgray;
-}
-
-.contact__input--name {
-    float: left;
-}
-
-.contact__input--phone {
-    float: right
-}
-
-.contact__input--submit {
-    float: right;
-    border: none;
-    background-color: #77BDC3;
-    font-family:  'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: #E9F0DD;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 12%;
-    padding-right: 12%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 4%;
-}
-
-.contact__input--details {
-    resize: none;
-}
-
-.contact__title {
-    width: 50% !important;
-}
-
-.contact__link {
-    float: right;
-    width: 8%;
-    margin-left: 4%;
-    margin-top: 4%;
-}
-
-/* Group styles */
-
-#group1 {
-    z-index: 5;
-}
+/* Group styles (ignore parallax in name, just sets bg colors) */
 
 #group1 .parallax__layer--base {
     background: #2E3B3B;
 }
 
-#group2 {
-    z-index: 3;
-}
-
 #group2 .parallax__layer--back {
     background: #FFFFFD;
-
-}
-
-#group3 {
-    z-index: 4;
 }
 
 #group3 .parallax__layer--base {
     background: #EFF3E3;
 }
 
-#group4 {
-    z-index: 2;
-}
-
 #group4 .parallax__layer--deep {
     background: #FFFFFD;
 }
 
-#group5 {
-    z-index: 3;
-}
-
-#group5 .parallax__layer--base {
-    
+#group5 .parallax__layer--base {   
     object-fit: contain;
-}
-
-#group6 {
-    z-index: 4;
 }
 
 #group6 .parallax__layer--base {
     background: #344343;
 }
-  

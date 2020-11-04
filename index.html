@@ -7,6 +7,10 @@
             content="Quality graphic design solution, located in Spokane, Washington.">
 
         <link rel="stylesheet" href="styles/style.css">
+
+        <!-- Stylesheet for all parallax capable browsers -->
+        <link rel="stylesheet" media="screen and (min-width: 1000px)" href="styles/parallaxstyle.css">
+
         <!-- Large device resolution down to medium devices -->
         <link rel="stylesheet" media="screen and (min-width: 2101px)"
             href="styles/largestyle.css">
@@ -16,11 +20,16 @@
             href="styles/mediumstyle.css">
 
         <!-- Smaller device resolution down to mobile devices -->
-        <link rel="stylesheet" media="screen and (min-width: 1000px) and (max-width: 1365px)"
+        <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1365px)"
             href="styles/smallstyle.css">
     
+        <!-- Mobile devices -->
+        <link rel="stylesheet" media="screen and (max-width: 1023px)"
+            href="styles/mobile.css">
+
         <title>Smoke & Rye</title>
-    
+        
+        <!-- FAVICON -->
         <link rel="shortcut icon" href="images/bluesquare.svg"/>
         
         <!-- Need JQuery For Ajax Post in Contact Us -->
@@ -32,7 +41,7 @@
         <div class="parallax">
 
             <!-- Start Landing/Intro -->
-            <div id="group1" class="parallax__group">
+            <div id="group1" class="group parallax__group">
                 <div class="parallax__layer parallax__layer--base">
                     <img src="images/sandrlogo.svg" class="title img__landing">
                 </div>
@@ -40,7 +49,7 @@
             <!-- End Landing/Intro -->
 
             <!-- Start "Let's Get Started" -->
-            <div id="group2" class="parallax__group">
+            <div id="group2" class="group parallax__group">
                 <div id="lets-get-started-square-small" class="parallax__layer parallax__layer--fore">
                     <div class="square__small square__small--right--inner--mid">
                         <img src="images/bluesquare.svg">
@@ -70,7 +79,7 @@
             <!-- End "Let's Get Started" -->
 
             <!-- Start "Our Services" -->
-            <div id="group3" class="parallax__group">
+            <div id="group3" class="group parallax__group">
                 
                 <div id="services-text-left" class="parallax__layer parallax__layer--fore">
                     <div class="text services__text__left">
@@ -105,7 +114,7 @@
             <!-- End "Our Services" -->
 
             <!-- Start "Process" -->
-            <div id="group4" class="parallax__group">
+            <div id="group4" class="group parallax__group">
                 <div id="process-square-large" class="parallax__layer parallax__layer--closest">
                     <div class="square__large square__large--left--bottom">
                         <img src="images/bluesquare.svg">
@@ -153,7 +162,7 @@
             <!-- End "Process" -->
 
             <!-- Start "About Us" -->
-            <div id="group5" class="parallax__group">
+            <div id="group5" class="group parallax__group">
                 <div id="about-us-text" class="parallax__layer parallax__layer--closest">
                     <div class="text text__right--bottom" style="color: white;">
                         <p>
@@ -181,7 +190,7 @@
             <!-- End "About Us" -->
 
             <!-- Start "Contact Us" -->
-            <div id="group6" class="parallax__group">
+            <div id="group6" class="group parallax__group">
                 <div class="parallax__layer parallax__layer--base">
                     <div class="title title__top contact__title">
                         <img src="images/titles/sayhello2x.png">
