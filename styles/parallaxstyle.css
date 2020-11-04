@@ -165,6 +165,11 @@ input {
     width: 10%;
 }
 
+.square__large--left--bottom {
+    -webkit-transform: translate(150%, 310%);
+    transform: translate(150%, 310%);
+}
+
 .square__large--left--top {
     -webkit-transform: translate(150%, 120%);
     transform: translate(150%, 120%);
@@ -179,10 +184,26 @@ input {
     width: 6%;
 }
 
+.square__small--left--bottom {
+    -webkit-transform: translate(305%, 565%);
+    transform: translate(305%, 565%);
+}
+
 .square__small--right--bottom {
     -webkit-transform: translate(1305%, 445%);
     transform: translate(1305%, 445%);
 }
+
+.square__small--right--inner--mid {
+    -webkit-transform: translate(1305%, 440%);
+    transform: translate(1305%, 440%);
+}
+
+.square__small--right--outter--top {
+    -webkit-transform: translate(1465%, 270%);
+    transform: translate(1465%, 270%);
+}
+
 
 /* Text */
 

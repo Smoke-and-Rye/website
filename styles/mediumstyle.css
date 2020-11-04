@@ -35,26 +35,5 @@ p {
     transform: translate(-70%, 25%);
 }
 
-/* Square */
 
-.square__large--left--bottom {
-    -webkit-transform: translate(150%, 310%);
-    transform: translate(150%, 310%);
-}
-
-.square__small--right--inner--mid {
-    -webkit-transform: translate(1305%, 440%);
-    transform: translate(1305%, 440%);
-}
-
-.square__small--right--outter--top {
-    -webkit-transform: translate(1465%, 270%);
-    transform: translate(1465%, 270%);
-}
-
-
-.square__small--left--bottom {
-    -webkit-transform: translate(305%, 655%);
-    transform: translate(305%, 655%);
-}
 
