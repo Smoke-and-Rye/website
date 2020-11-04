@@ -28,6 +28,62 @@ p {
     padding: 0;
 }
 
+/* Class Styles */
+
+/* Text */
+
+.text {
+    position: absolute;
+    text-align: justify;
+    width: 42%;
+}
+
+.text__center {
+    left: 75%;
+    top: 60%;
+    -webkit-transform: translate(-112%, 103%);
+    transform: translate(-112%, 103%);
+    height: auto;
+}
+
+/* Title */
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.title__left {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-95%, -50%);
+    transform: translate(-95%, -50%);
+    width: 50%;
+    height: auto;
+}
+
+.title__right {
+    right: -5%;
+    top: 50%;
+    -webkit-transform: translate(-5%, -50%);
+    transform: translate(-5%, -50%);
+    width: 50%;
+    height: auto;
+}
+
+.title__bottom {
+    top: 70%;
+}
+
+.title__top {
+    top: 18%;
+    width: 40%;
+}
+
+
 /* Group styles (ignore parallax in name, just sets bg colors) */
 
 #group1 .parallax__layer--base {

@@ -68,6 +68,13 @@ input {
 
 /* Class styles */
 
+/* About Us */
+#about-us-aj-inner {
+    left: 47.3%;
+    top: 60%;
+    width: 39.75%;
+}
+
 /* Contact */
 .contact__body {
     padding: 20px;
@@ -100,6 +107,7 @@ input {
     border: none;
     background-color: #77BDC3;
     font-family:  'Courier New', Courier, monospace;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #E9F0DD;
     padding-top: 2%;
@@ -125,6 +133,95 @@ input {
     margin-left: 4%;
     margin-top: 4%;
 }
+
+/* Process */
+
+.processes__text__left--top {
+    left: 47%;
+    top: 60%;
+    -webkit-transform: translate(-104%, -60%);
+    transform: translate(-104%, -60%);
+    height: auto;
+}
+
+.processes__text__right--bottom {
+    height: auto;
+}
+
+/* Services */
+
+.services__text__left {
+    height: auto;
+}
+
+.services__text__right {
+    height: auto;
+    width: 31.3%;
+}
+
+/* Square */
+
+.square__large {
+    width: 10%;
+}
+
+.square__large--left--top {
+    -webkit-transform: translate(150%, 120%);
+    transform: translate(150%, 120%);
+}
+
+.square__large--right--top {
+    -webkit-transform: translate(750%, 120%);
+    transform: translate(750%, 120%);
+}
+
+.square__small {
+    width: 6%;
+}
+
+.square__small--right--bottom {
+    -webkit-transform: translate(1305%, 445%);
+    transform: translate(1305%, 445%);
+}
+
+/* Text */
+
+.text__top {
+    top: 25%;
+}
+
+.text__right--bottom {
+    left: 85%;
+    top: 60%;
+    -webkit-transform: translate(-105%, -5%);
+    transform: translate(-105%, -5%);
+    height: auto;
+}
+
+.text__right--top {
+    left: 75%;
+    top: 58%;
+    -webkit-transform: translate(-70%, 25%);
+    transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.text__left--top {
+    left: 47%;
+    top: 60%;
+    -webkit-transform: translate(-104%, -95%);
+    transform: translate(-104%, -95%);
+    height: auto;
+}
+
+.text__left--bottom {
+    left: 53%;
+    top: 60%;
+    -webkit-transform: translate(-105%, 12%);
+    transform: translate(-105%, 12%);
+    height: auto;
+}
+
 
 /* Group Z-index */
 
