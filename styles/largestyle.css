@@ -1,10 +1,18 @@
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
+}
+
+.contact__input {
+    line-height: 255%;
 }
 
 .contact__input--submit {
-    font-size: 1.25rem;
+    font-size: 1.55rem;
+}
+
+.contact__link {
+    width: 6.5%;
 }
 
 .title {
@@ -91,18 +99,30 @@ p {
 
 .services__text__right {
     left: 74%;
-    top: 58%;
-    -webkit-transform: translate(-45%, 49%);
-    transform: translate(-45%, 49%);
+    top: 59%;
+    -webkit-transform: translate(-45%, 37%);
+    transform: translate(-45%, 37%);
     height: auto;
     width: 31.3%;
 }
 
+.services__text__right--paragraph {
+    font-size: 1.15rem;
+}
+
 .services__text__left {
-    left: 75%;
+    left: 80%;
     top: 58%;
     -webkit-transform: translate(-70%, 25%);
     transform: translate(-70%, 25%);
+    height: auto;
+}
+
+.processes__text__left--top {
+    left: 47%;
+    top: 60%;
+    -webkit-transform: translate(-104%, -60%);
+    transform: translate(-104%, -60%);
     height: auto;
 }
 
