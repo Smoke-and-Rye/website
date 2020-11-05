@@ -85,6 +85,7 @@ p {
 .processes__text__left--top {
     left: 50%;
     top: 60%;
+    margin-top: 10%;
     -webkit-transform: translate(-0%, -130%);
     transform: translate(0%, -130%);
     height: auto;
@@ -93,6 +94,7 @@ p {
 .processes__text--center {
     left: 50%;
     top: 60%;
+    margin-top: 10%;
     -webkit-transform: translate(-0%, 0%);
     transform: translate(0%, 0%);
     height: auto;
@@ -101,12 +103,11 @@ p {
 .processes__text__right--bottom {
     left: 50%;
     top: 60%;
+    margin-top: 10%;
     -webkit-transform: translate(0%, 140%);
     transform: translate(0%, 140%);
     height: auto;
 }
-
-
 
 /* Title */
 
@@ -124,10 +125,6 @@ p {
     top: 15% !important;
 }
 
-.title__bottom {
-    top: 70%;
-}
-
 /* Text */
 
 .text {
@@ -139,8 +136,8 @@ p {
     top: 40%;
 }
 
-.text__top {
-    top: 25%;
+.text__right--bottom {
+    top: 65%;
 }
 
 /* Services */
@@ -161,7 +158,6 @@ p {
     transform: translate(-70%, 30%);
     width: 50%;
     height: auto;
-    
 }
 
 /* Square */
@@ -176,8 +172,17 @@ p {
     z-index: 1;
 }
 
+#about-us-spokane {
+    height: 100%;
+    width: auto;
+}
+
+#about-us-title {
+    top: 15%;
+}
+
 #about-us-aj-inner {
-    left: 47.3%;
-    top: 60%;
-    width: 39.75%;
+    left: 50%;
+    top: 50%;
+    width: 100%;
 }
