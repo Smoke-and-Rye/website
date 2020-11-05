@@ -1,7 +1,11 @@
+/* Body */
+
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-size: .85rem;
 }
+
+/* Views */
 
 .view {
     font-size: 200%;
@@ -28,11 +32,80 @@ p {
     left: 0;
   }
 
+/* Contact */
+
+.contact__body {
+    padding: 20px;
+    width: 40%;
+}
+
+.contact__input {
+    display: none;
+}
+
+.contact__input--border {
+    border: 3px solid lightgray;
+}
+
+.contact__input--name {
+    float: left;
+}
+
+.contact__input--phone {
+    float: right
+}
+
+.contact__input--submit {
+    display: none;
+}
+
+.contact__input--details {
+    resize: none;
+}
+
+.contact__title {
+    width: 50% !important;
+}
+
+.contact__link {
+    float: right;
+    width: 10%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
 .img__landing {
     width: 75% !important;
     max-height: 80% !important;
     top: 50% !important;
 }
+
+/* Process */
+
+.processes__text__left--top {
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-0%, -130%);
+    transform: translate(0%, -130%);
+    height: auto;
+}
+
+.processes__text--center {
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-0%, 0%);
+    transform: translate(0%, 0%);
+    height: auto;
+}
+
+.processes__text__right--bottom {
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(0%, 140%);
+    transform: translate(0%, 140%);
+    height: auto;
+}
+
 
 
 /* Title */
@@ -40,11 +113,15 @@ p {
 .title {
     position: relative;
     left: 50%;
-    top: 18%;
+    top: 8%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 60%;
     max-height: 30%;
+}
+
+.title__lets-get-started {
+    top: 15% !important;
 }
 
 .title__bottom {
@@ -54,7 +131,7 @@ p {
 /* Text */
 
 .text {
-    position: relative;
+    position: absolute;
     text-align: justify;
     width: 80%;
     left: 10%;
@@ -62,12 +139,8 @@ p {
     top: 40%;
 }
 
-.text__center {
-    left: 75%;
-    top: 60%;
-    -webkit-transform: translate(-112%, 103%);
-    transform: translate(-112%, 103%);
-    height: auto;
+.text__top {
+    top: 25%;
 }
 
 /* Services */
@@ -89,18 +162,6 @@ p {
     width: 50%;
     height: auto;
     
-}
-
-.processes__text__right--bottom {
-    left: 81%;
-    top: 70%;
-    -webkit-transform: translate(-62%, 371%);
-    transform: translate(-62%, 371%);
-    height: auto;
-}
-
-.text__top {
-    top: 25%;
 }
 
 /* Square */
