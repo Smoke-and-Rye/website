@@ -56,28 +56,6 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.title__left {
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-95%, -50%);
-    transform: translate(-95%, -50%);
-    width: 50%;
-    height: auto;
-}
-
-.title__right {
-    right: -5%;
-    top: 50%;
-    -webkit-transform: translate(-5%, -50%);
-    transform: translate(-5%, -50%);
-    width: 50%;
-    height: auto;
-}
-
-.title__bottom {
-    top: 70%;
-}
-
 .title__top {
     top: 18%;
     width: 40%;
