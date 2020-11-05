@@ -82,30 +82,3 @@ p {
     top: 18%;
     width: 40%;
 }
-
-
-/* Group styles (ignore parallax in name, just sets bg colors) */
-
-#group1 .parallax__layer--base {
-    background: #2E3B3B;
-}
-
-#group2 .parallax__layer--back {
-    background: #FFFFFD;
-}
-
-#group3 .parallax__layer--base {
-    background: #EFF3E3;
-}
-
-#group4 .parallax__layer--deep {
-    background: #FFFFFD;
-}
-
-#group5 .parallax__layer--base {   
-    object-fit: contain;
-}
-
-#group6 .parallax__layer--base {
-    background: #344343;
-}
