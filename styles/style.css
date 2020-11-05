@@ -82,3 +82,28 @@ p {
     top: 18%;
     width: 40%;
 }
+
+/* Group styles */
+#group1 .view__layer--base {
+    background: #2E3B3B;
+}
+
+#group2 .view__layer--back {
+    background: #FFFFFD;
+}
+
+#group3 .view__layer--base {
+    background: #EFF3E3;
+}
+
+#group4 .view__layer--deep {
+    background: #FFFFFD;
+}
+
+#group5 .view__layer--base {   
+    object-fit: contain;
+}
+
+#group6 .view__layer--base {
+    background: #344343;
+}

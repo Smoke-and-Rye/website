@@ -12,24 +12,29 @@ p {
     perspective: 300px;
 }
 
-.non__parallax {
+.img__landing {
+    width: 75% !important;
+    max-height: 80%;
+}
+
+.view {
     height: 640px; 
     height: 100vh;
-    overlow-x: hidden;
+    overflow-x: hidden;
     overflow-y: auto;
     perspective: 300px;
 }
 
+.view__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
 .services__text__right--paragraph {
     font-size: .75rem;
-}
-
-.contact__input--submit {
-    font-size: 1.25rem;
-}
-
-.contact__body {
-    top: 57% !important;
 }
 
 .title {

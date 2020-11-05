@@ -1,6 +1,6 @@
-/* Parallax base styles */
+/* view base styles */
 
-.parallax {
+.view {
     font-size: 200%;
     height: 500px; /* fallback for older browsers */
     height: 100vh;
@@ -11,7 +11,7 @@
 }
 
 
-.parallax__group {
+.view__group {
     position: relative;
     height: 500px;
     height: 100vh;
@@ -19,7 +19,7 @@
     transform-style: preserve-3d;
 }
 
-.parallax__layer {
+.view__layer {
     position: absolute;
     top: 0;
     right: 0;
@@ -27,29 +27,29 @@
     left: 0;
   }
 
-  .parallax__layer--fore {
+  .view__layer--fore {
       -webkit-transform: translateZ(90px) scale(.7);
       transform: translateZ(90px) scale(.7);
       z-index: 1;
   }
 
-  .parallax__layer--closest {
+  .view__layer--closest {
       -webkit-transform: translateZ(200px) scale(.45);
       transform: translateZ(200px) scale(.45);
       z-index: 5;
   }
-  .parallax__layer--base {
+  .view__layer--base {
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
       z-index: 4;
   }
-  .parallax__layer--back {
+  .view__layer--back {
     -webkit-transform: translateZ(-300px) scale(2);
     transform: translateZ(-300px) scale(2);
     z-index: 3;
   }
 
-  .parallax__layer--deep {
+  .view__layer--deep {
       -webkit-transform: translateZ(-600px) scale(3);
       transform: translateZ(-600px) scale(3);
       z-index: 2;
@@ -250,7 +250,7 @@ input {
     z-index: 5;
 }
 
-#group1 .parallax__layer--base {
+#group1 .view__layer--base {
     background: #2E3B3B;
 }
 
@@ -258,7 +258,7 @@ input {
     z-index: 3;
 }
 
-#group2 .parallax__layer--back {
+#group2 .view__layer--back {
     background: #FFFFFD;
 }
 
@@ -266,7 +266,7 @@ input {
     z-index: 4;
 }
 
-#group3 .parallax__layer--base {
+#group3 .view__layer--base {
     background: #EFF3E3;
 }
 
@@ -274,7 +274,7 @@ input {
     z-index: 2;
 }
 
-#group4 .parallax__layer--deep {
+#group4 .view__layer--deep {
     background: #FFFFFD;
 }
 
@@ -282,7 +282,7 @@ input {
     z-index: 3;
 }
 
-#group5 .parallax__layer--base {   
+#group5 .view__layer--base {   
     object-fit: contain;
 }
 
@@ -290,6 +290,6 @@ input {
     z-index: 4;
 }
 
-#group6 .parallax__layer--base {
+#group6 .view__layer--base {
     background: #344343;
 }
