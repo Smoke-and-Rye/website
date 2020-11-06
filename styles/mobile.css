@@ -32,52 +32,30 @@ p {
     left: 0;
   }
 
-/* Contact */
-
-.contact__body {
-    padding: 20px;
-    width: 40%;
-}
-
-.contact__input {
-    display: none;
-}
-
-.contact__input--border {
-    border: 3px solid lightgray;
-}
-
-.contact__input--name {
-    float: left;
-}
-
-.contact__input--phone {
-    float: right
-}
-
-.contact__input--submit {
-    display: none;
-}
-
-.contact__input--details {
-    resize: none;
-}
-
-.contact__title {
-    width: 50% !important;
-}
-
-.contact__link {
-    float: right;
-    width: 10%;
-    margin-left: 4%;
-    margin-top: 4%;
-}
 
 .img__landing {
     width: 75% !important;
     max-height: 80% !important;
     top: 50% !important;
+}
+
+/* Contact Us */
+.contact__body {
+    top: 40% !important;
+    width: 80% !important;
+}
+
+.contact__input {
+    line-height: 100%;
+}
+
+.contact__link {
+    width: 11%;
+}
+
+.contact__title {
+    top: 15% !important;
+    width: 80% !important;
 }
 
 /* Process */
