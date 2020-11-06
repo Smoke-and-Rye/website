@@ -1,12 +1,17 @@
-/* Body */
 
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: .85rem;
+
+/* Square */
+.square__large {
+    display: none;
 }
 
-/* Views */
+#about-us-title {
+    top: 15%;
+}
 
+
+
+/* Views */
 .view {
     font-size: 200%;
     height: 100vh;
@@ -31,7 +36,6 @@ p {
     bottom: 0;
     left: 0;
   }
-
 
 .img__landing {
     width: 75% !important;
@@ -58,45 +62,6 @@ p {
     width: 80% !important;
 }
 
-/* Process */
-
-.processes__text__left--top {
-    left: 50%;
-    margin-top: 10%;
-    height: auto;
-    top: 8% !important;
-}
-
-.processes__text--center {
-    left: 50%;
-    margin-top: 10%;
-    height: auto;
-    top: 35% !important;
-}
-
-.processes__text__right--bottom {
-    left: 50%;
-    margin-top: 10%;
-    height: auto;
-    top: 65% !important;
-}
-
-/* Title */
-
-.title {
-    position: relative;
-    left: 50%;
-    top: 8%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 60%;
-    max-height: 30%;
-}
-
-.title__lets-get-started {
-    top: 15% !important;
-}
-
 /* Text */
 
 .text {
@@ -112,49 +77,142 @@ p {
     top: 65%;
 }
 
-/* Services */
+@media (orientation: portrait) {
 
-.services__text__left {
-    left: 40%;
-    top: 25%;
-    -webkit-transform: translate(-70%, 25%);
-    transform: translate(-70%, 25%);
-    width: 50%;
-    height: auto;
+    /* Body */
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .85rem;
+    }
+
+    /* Process */
+    .processes__text__left--top {
+        left: 10%;
+        margin-top: 10%;
+        height: auto;
+        top: 10% !important;
+    }
+
+    .processes__text--center {
+        left: 10%;
+        margin-top: 10%;
+        height: auto;
+        top: 35% !important;
+    }
+
+    .processes__text__right--bottom {
+        left: 10%;
+        margin-top: 10%;
+        height: auto;
+        top: 65% !important;
+    }
+
+    /* Services */
+    .services__text__left {
+        left: 40%;
+        top: 25%;
+        -webkit-transform: translate(-70%, 25%);
+        transform: translate(-70%, 25%);
+        width: 50%;
+        height: auto;
+    }
+
+    .services__text__right {
+        left: 90%;
+        top: 55%;
+        -webkit-transform: translate(-70%, 30%);
+        transform: translate(-70%, 30%);
+        width: 50%;
+        height: auto;
+    }
+
+    /* Square */
+    .square__small {
+        width: 20%;
+    }
+    
+    .square__small--right--inner--mid {
+        -webkit-transform: translate3d(245px, 510px, 10px);
+        transform: translate3d(245px, 510px, 1px);
+        z-index: 1;
+    }
+
+    /* Title */
+    .title {
+        position: relative;
+        left: 50%;
+        top: 8%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 60%;
+        max-height: 30%;
+    }
+
+    .title__lets-get-started {
+        top: 15% !important;
+    }
+
+    #about-us-spokane {
+        height: 100%;
+        width: auto;
+    }
+
+    #about-us-aj-inner {
+        left: 50%;
+        top: 60%;
+        width: 100%;
+    }
 }
 
-.services__text__right {
-    left: 90%;
-    top: 55%;
-    -webkit-transform: translate(-70%, 30%);
-    transform: translate(-70%, 30%);
-    width: 50%;
-    height: auto;
-}
 
-/* Square */
+@media (orientation: landscape) {
 
-.square__small {
-    width: 20%;
-}
+    /* Body */
+    p {
+        font-size: 1rem;
+    }
 
-.square__small--right--inner--mid {
-    -webkit-transform: translate3d(245px, 510px, 10px);
-    transform: translate3d(245px, 510px, 1px);
-    z-index: 1;
-}
+    /* Service */
+    .services__text__left {
+        left: 60%;
+        top: 25%;
+        -webkit-transform: translate(-70%, 25%);
+        transform: translate(-70%, 25%);
+        width: 50%;
+        height: auto;
+    }
 
-#about-us-spokane {
-    height: 100%;
-    width: auto;
-}
+    .services__text__right {
+        left: 92%;
+        top: 40%;
+        -webkit-transform: translate(-70%, 25%);
+        transform: translate(-70%, 25%);
+        width: 50%;
+        height: auto;
+    }
 
-#about-us-title {
-    top: 15%;
-}
+    /* Square */
+    .square__small {
+        display: none;
+    }
 
-#about-us-aj-inner {
-    left: 50%;
-    top: 60%;
-    width: 100%;
+    #about-us-spokane {
+        width: 100% !important;
+        height: auto;
+    }
+
+    /* Title */
+    .title {
+        position: relative;
+        left: 50%;
+        top: 15%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 60%;
+        max-height: 30%;
+    }
+
+    .title__lets-get-started {
+        top: 18% !important;
+    }
 }
