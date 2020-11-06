@@ -84,29 +84,23 @@ p {
 
 .processes__text__left--top {
     left: 50%;
-    top: 60%;
     margin-top: 10%;
-    -webkit-transform: translate(-0%, -130%);
-    transform: translate(0%, -130%);
     height: auto;
+    top: 8% !important;
 }
 
 .processes__text--center {
     left: 50%;
-    top: 60%;
     margin-top: 10%;
-    -webkit-transform: translate(-0%, 0%);
-    transform: translate(0%, 0%);
     height: auto;
+    top: 35% !important;
 }
 
 .processes__text__right--bottom {
     left: 50%;
-    top: 60%;
     margin-top: 10%;
-    -webkit-transform: translate(0%, 140%);
-    transform: translate(0%, 140%);
     height: auto;
+    top: 65% !important;
 }
 
 /* Title */
@@ -168,7 +162,7 @@ p {
 
 .square__small--right--inner--mid {
     -webkit-transform: translate3d(245px, 510px, 10px);
-    transform: translate3d(245px, 510px, 10px);
+    transform: translate3d(245px, 510px, 1px);
     z-index: 1;
 }
 

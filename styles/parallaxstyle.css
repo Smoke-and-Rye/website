@@ -136,6 +136,14 @@ input {
 
 /* Process */
 
+.processes__text--center {
+    left: 75%;
+    top: 60%;
+    -webkit-transform: translate(-112%, 103%);
+    transform: translate(-112%, 103%);
+    height: auto;
+}
+
 .processes__text__left--top {
     left: 47%;
     top: 60%;

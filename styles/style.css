@@ -38,14 +38,6 @@ p {
     width: 42%;
 }
 
-.text__center {
-    left: 75%;
-    top: 60%;
-    -webkit-transform: translate(-112%, 103%);
-    transform: translate(-112%, 103%);
-    height: auto;
-}
-
 /* Title */
 
 .title {
