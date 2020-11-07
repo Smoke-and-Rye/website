@@ -172,6 +172,19 @@
         font-size: 1rem;
     }
 
+    /* Process */
+    .processes__text__left--top {
+        top: 5%;
+    }
+
+    .processes__text--center {
+        top: 35%;
+    }
+
+    .processes__text__right--bottom {
+        top: 70%;
+    }
+
     /* Service */
     .services__text__left {
         left: 60%;
@@ -205,14 +218,10 @@
     .title {
         position: relative;
         left: 50%;
-        top: 15%;
+        top: 18%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         width: 60%;
         max-height: 30%;
-    }
-
-    .title__lets-get-started {
-        top: 18% !important;
     }
 }
