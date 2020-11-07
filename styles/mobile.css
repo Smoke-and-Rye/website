@@ -214,6 +214,11 @@
         height: auto;
     }
 
+    #about-us-title {
+        -webkit-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+    }
+
     /* Title */
     .title {
         position: relative;
