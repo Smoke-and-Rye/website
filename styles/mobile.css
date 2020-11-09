@@ -187,6 +187,33 @@
         top: 5%;
     }
 
+    /* Contact Us */
+    .contact__body {
+        top: 25% !important;
+        width: 60% !important;
+    }
+
+    .contact__input {
+        line-height: 100%;
+    }
+
+    .contact__link {
+        margin-top: 0%;
+        width: 7%;
+    }
+
+    .contact__title {
+        top: 15% !important;
+        width: 80% !important;
+    }
+
+    .contact__input--submit {
+        font-size: 1rem;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 4%;
+    }
+
     /* Body */
     p {
         font-size: 1rem;
