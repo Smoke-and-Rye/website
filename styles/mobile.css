@@ -5,12 +5,6 @@
     display: none;
 }
 
-#about-us-title {
-    top: 15%;
-}
-
-
-
 /* Views */
 .view {
     font-size: 200%;
@@ -70,10 +64,6 @@
     left: 10%;
     z-index: 1;
     top: 40%;
-}
-
-.text__right--bottom {
-    top: 65%;
 }
 
 @media (orientation: portrait) {
@@ -136,6 +126,11 @@
         z-index: 1;
     }
 
+    /* Text */
+    .text__right--bottom {
+        top: 65%;
+    }
+
     /* Title */
     .title {
         position: relative;
@@ -161,10 +156,36 @@
         top: 60%;
         width: 100%;
     }
+
+    #about-us-title {
+        top: 15%;
+    }
 }
 
 
 @media (orientation: landscape) {
+
+    /* About Us */
+    #about-us-spokane {
+        width: 100% !important;
+        height: auto;
+    }
+
+    #about-us-title {
+        width: 40%;
+        -webkit-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+    }
+
+    #about-us-aj-inner {
+        left: 35%;
+        top: 22%;
+        width: 60%;
+    }
+
+    #about-us-title {
+        top: 5%;
+    }
 
     /* Body */
     p {
@@ -208,14 +229,9 @@
         display: none;
     }
 
-    #about-us-spokane {
-        width: 100% !important;
-        height: auto;
-    }
-
-    #about-us-title {
-        -webkit-transform: translate(0%, 0%);
-        transform: translate(0%, 0%);
+    /* Text */
+    .text__right--bottom {
+        top: 70%;
     }
 
     /* Title */
@@ -228,4 +244,5 @@
         width: 60%;
         max-height: 30%;
     }
+
 }
