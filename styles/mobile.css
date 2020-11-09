@@ -5,6 +5,11 @@
     display: none;
 }
 
+/* Square */
+.square__small {
+    display: none;
+}
+    
 /* Views */
 .view {
     font-size: 200%;
@@ -113,17 +118,6 @@
         transform: translate(-70%, 30%);
         width: 50%;
         height: auto;
-    }
-
-    /* Square */
-    .square__small {
-        width: 20%;
-    }
-    
-    .square__small--right--inner--mid {
-        -webkit-transform: translate3d(245px, 510px, 10px);
-        transform: translate3d(245px, 510px, 1px);
-        z-index: 1;
     }
 
     /* Text */
