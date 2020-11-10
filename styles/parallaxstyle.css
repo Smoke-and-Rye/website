@@ -28,15 +28,17 @@
   }
 
   .view__layer--fore {
-      -webkit-transform: translateZ(90px) scale(.7);
-      transform: translateZ(90px) scale(.7);
-      z-index: 1;
+    pointer-events: none; /* So we can click 'Contact Us' anchor behind it */
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
   }
 
   .view__layer--closest {
-      -webkit-transform: translateZ(200px) scale(.45);
-      transform: translateZ(200px) scale(.45);
-      z-index: 5;
+    pointer-events: none; /* So we can click 'Contact Us' anchor behind it */
+    -webkit-transform: translateZ(200px) scale(.45);
+    transform: translateZ(200px) scale(.45);
+    z-index: 5;
   }
   .view__layer--base {
       -webkit-transform: translateZ(0);
